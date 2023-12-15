@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Fuggit!</Text>
+      <Text>Fuggit! now!</Text>
       <StatusBar style="auto" />
     </View>
   );
