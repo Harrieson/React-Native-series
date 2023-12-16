@@ -4,14 +4,14 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
-import DayListItem from './src/components/core/DayList';
+import DayListItem from '../components/core/DayList';
 
 
 SplashScreen.preventAutoHideAsync();
 
 const days = [...Array(30)].map((val, index) => index + 1);
 
-export default function App() {
+export default function Home() {
   const [ fontsLoaded, fontError] = useFonts({
     Inter: Inter_900Black,
     Amatic: AmaticSC_400Regular,
